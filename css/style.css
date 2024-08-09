@@ -1,0 +1,113 @@
+/* body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #0C513F;
+    --lightgreen:#E6F7F1;
+    --buttongreen:#05AA70;
+    --mapgreen:#05AA70;
+    --bordercolor:#F2F2F2;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+header ul li{
+    margin-right: 10px;
+    
+}
+  
+   */
+
+**{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: #efecec solid 1px;
+}
+
+header input{
+    padding-left: 20%  
+    
+}
+
+.form-control{
+    background-color: #F2F2F2;
+    text-indent: 16px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+div.logo img{
+    border-radius: 6px;
+}
+
+
+
+.image-profile img{
+    width: 100%;
+    height: 250px;
+    border-radius: 16px;
+
+}
+
+.cart-user-icons {
+    font-size: 11.8px;
+    background-color: #0C513F;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 12px;
+    text-align: center;
+    margin: 2px;
+
+    
+}
+
+@media screen and (max-width: 796px) {
+    
+    .cart-user-icons {
+        font-size: 15px;
+        background-color: #0C513F;
+        color: white;
+        border-radius: 50px;
+        padding: 10px 12px;
+        text-align: center;
+        margin: 2px;
+        text-align: end;
+    }
+
+    header{
+        border-bottom: none;
+        margin-top: 10px;
+    }
+
+    #search-icon{
+        display: none;
+    }
+
+    .form-control{
+        text-indent: 5px;
+        width: 100%;
+    }
+
+    .image-profile img{
+        width: 100%;
+        height: 130px;
+        border-radius: 16px;
+    
+    }
+
+  }
